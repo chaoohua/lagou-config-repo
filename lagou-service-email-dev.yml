@@ -14,7 +14,7 @@ spring:
   mail:
     host: smtp.126.com
     username: andyhuua@126.com
-    password: 123qweasdzxc
+    password: QPKSGPVCCHQFKRUB
     default-encoding: UTF-8
     properties:
       mail:
