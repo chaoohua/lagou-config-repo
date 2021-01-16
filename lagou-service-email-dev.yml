@@ -12,9 +12,9 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #避免将驼峰 命名转换为下划线命名
   ## 163邮箱配置
   mail:
-    host: smtp.163.com
-    username: 13220371107@163.com
-    password: ZOLMZPMAVKMQPAFO
+    host: smtp.126.com
+    username: andyhuua@126.com
+    password: 123qweasdzxc
     default-encoding: UTF-8
     properties:
       mail:
@@ -25,7 +25,7 @@ spring:
             required: false
     # rabbitmq 配置
   rabbitmq:
-    host: 192.168.227.170
+    host: 127.0.0.1
     port: 5672
     username: guest
     password: guest
