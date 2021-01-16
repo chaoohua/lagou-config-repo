@@ -1,0 +1,22 @@
+spring:
+    # rabbitmq 配置
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  # 也可以暴露所有的端口
+
+lagou:
+  api:
+    register:
+      path: /user/register/*/*/*
+    register:
+      explosion:
+        time: 1   # ip防爆刷时间阈值
+        count: 2  # ip防爆刷次数阈值
